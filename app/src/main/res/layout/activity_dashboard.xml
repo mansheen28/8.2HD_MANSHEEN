@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="#DCDCDC">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Choose your situation"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/q1"
+        android:padding="10dp"
+        android:text="I'm planning a trip to a new city. Can you suggest the best places to visit, stay, and eat, along with any travel tips?"
+        android:background="@drawable/bg_btns"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/q2"
+        android:padding="10dp"
+        android:text="I'm trying to save money and manage my finances better. Can you provide tips on budgeting, saving, and investing wisely?"
+        android:background="@drawable/bg_btns"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/q3"
+        android:padding="10dp"
+        android:text="I'm having some issues in my relationship. What are some effective communication strategies and ways to resolve conflicts peacefully?"
+        android:background="@drawable/bg_btns"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/q4"
+        android:padding="10dp"
+        android:text="I'm considering a career change but unsure where to start. Can you suggest steps for identifying my strengths and finding a suitable new career path?"
+        android:background="@drawable/bg_btns"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Ask Custom Situation"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/et_situation"
+        android:hint="Write your query here"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:background="@drawable/bg_btns"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/get_help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="Ask Now"
+        android:textSize="15sp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light" />
+
+</LinearLayout>
